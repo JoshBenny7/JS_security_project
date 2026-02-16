@@ -15,11 +15,11 @@ app.get('/date', function(req, resp) {
     resp.send(`Date is: ${date}`);
 });
 
-app.get('/square/:n',function(req,resp){
-    var n= Number(req.params.n);
-    var s= n*n;
-    resp.send(`Square of ${n} is ${s}`);
-});
+// app.get('/square/:n',function(req,resp){
+//     var n= Number(req.params.n);
+//     var s= n*n;
+//     resp.send(`Square of ${n} is ${s}`);
+// });
 
 app.get('/addition/:a/:b',function(req,resp){
     var a= Number(req.params.a);
